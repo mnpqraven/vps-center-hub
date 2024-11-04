@@ -30,7 +30,7 @@ impl Greeter for MyGreeter {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let addr = "[::1]:50051".parse()?;
+    let addr = "[::1]:4001".parse()?;
     let greeter = MyGreeter::default();
 
 
